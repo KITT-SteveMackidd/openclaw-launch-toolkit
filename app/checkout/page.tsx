@@ -10,7 +10,7 @@ export default async function CheckoutPage({ searchParams }: { searchParams: Pro
         <div className="eyebrow">Checkout</div>
         <h1>Buy the OpenClaw Launch Toolkit</h1>
         <p className="heroLead">
-          This test-mode checkout unlocks the two paid PDFs after Stripe confirms payment through the webhook.
+          This checkout unlocks the two paid PDFs after Stripe confirms payment.
         </p>
         <ul className="checkoutList">
           <li>Improve Memory PDF</li>
@@ -27,7 +27,7 @@ export default async function CheckoutPage({ searchParams }: { searchParams: Pro
             <span>Email for delivery</span>
             <input type="email" name="email" placeholder="you@example.com" required />
           </label>
-          <button className="button primary" type="submit" disabled={!stripeReady}>Continue to Stripe test checkout</button>
+          <button className="button primary" type="submit" disabled={!stripeReady}>Continue to checkout</button>
         </form>
       </section>
     </main>

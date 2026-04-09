@@ -35,7 +35,7 @@ const deliverySteps = [
   },
   {
     title: 'Open your gated download page',
-    detail: 'After Stripe confirms payment by webhook, your private download page gives you access to the paid PDFs.',
+    detail: 'After payment is confirmed, your private download page gives you access to the paid PDFs.',
   },
 ] as const;
 

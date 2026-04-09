@@ -315,7 +315,7 @@ button.button:disabled {
 }
 
 .pricingGrid {
-  grid-template-columns: minmax(280px, 420px);
+  grid-template-columns: repeat(2, minmax(280px, 420px));
   justify-content: center;
 }
 

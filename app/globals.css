@@ -333,6 +333,7 @@ button.button:disabled {
   padding: 24px;
 }
 
+.guideCard,
 .pricingCard {
   display: flex;
   flex-direction: column;
@@ -365,6 +366,10 @@ button.button:disabled {
 .checkoutList {
   margin: 18px 0 0;
   padding-left: 18px;
+}
+
+.guideCard ul {
+  flex: 1 1 auto;
 }
 
 .guideActions {

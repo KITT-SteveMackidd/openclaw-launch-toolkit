@@ -102,9 +102,9 @@ export default function LaunchToolkitApp() {
       <section className="sectionBlock" id="toolkit">
         <div className="sectionIntro">
           <div className="eyebrow">What you get</div>
-          <h2>The product is the toolkit itself</h2>
+          <h2>The complete toolkit, broken down clearly</h2>
           <p>
-            The Setup PDF is the free sample. The other PDFs are part of the paid toolkit and are delivered through a gated download page after payment is confirmed.
+            Start with the free Setup PDF, then unlock the paid guides for memory and multi-agent workflows when you want the full toolkit.
           </p>
         </div>
 
@@ -209,7 +209,7 @@ export default function LaunchToolkitApp() {
               <ul>
                 <li>Includes the Improve Memory PDF</li>
                 <li>Includes the Multi-Agent Routing PDF</li>
-                <li>Delivered after Stripe webhook confirmation</li>
+                <li>One-time purchase, no subscription</li>
               </ul>
               <a className="button primary" href={buyHref}>
                 Continue to checkout
